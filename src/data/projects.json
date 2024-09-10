@@ -1,26 +1,26 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "title": "Food Website",
+    "imageSrc": "projects/project1.png",
+    "description": "Developed and managed an online store for selling food.",
     "skills": ["React", "Express", "Node"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/Arunendra1/food-app-frontend"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  },
-  {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "title": "E-Commerce Website",
+    "imageSrc": "projects/project2.png",
+    "description": "Developed and managed an online store for selling logos, gifts, and decorative items.",
     "skills": ["React", "Express", "Node"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/Arunendra1/E-Commerce"
+  },
+  {
+    "title": "E-Commerce Dashboard",
+    "imageSrc": "projects/project3.png",
+    "description": "Spearheaded the development of a robust E-commerce dashboard application leveraging React.js for front-end interactivity.",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/Arunendra1/E-Commerce-Dashboard"
   }
 ]

@@ -22,7 +22,7 @@ export const Experience = () => {
             );
           })}
         </div>
-        <ul className={styles.history}>
+        {/* <ul className={styles.history}>
           {history.map((historyItem, id) => {
             return (
               <li key={id} className={styles.historyItem}>
@@ -37,12 +37,12 @@ export const Experience = () => {
                     {historyItem.experiences.map((experience, id) => {
                       return <li key={id}>{experience}</li>;
                     })}
-                  </ul>
-                </div>
-              </li>
-            );
-          })}
-        </ul>
+                  </ul> */}
+                {/* </div> */}
+              {/* </li> */}
+            {/* ); */}
+          {/* })} */}
+        {/* </ul> */}
       </div>
     </section>
   );

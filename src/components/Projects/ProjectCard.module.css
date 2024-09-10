@@ -5,47 +5,52 @@
   flex-direction: column;
   border-radius: 10px;
   background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
-  box-shadow: 0 16px 14px 0 #04152d;
-  padding: 18px 24px;
-  max-width: 345px;
+  box-shadow: 0 8px 14px 0 #04152d; /* Reduced shadow for a subtler effect */
+  padding: 20px; /* Simplified padding */
+  max-width: 300px; /* Slightly reduced width for a more compact look */
+  margin: 10px; /* Added margin for spacing between containers */
 }
 
 .image {
-  margin-bottom: 26px;
+  margin-bottom: 20px; /* Adjusted margin for better spacing */
 }
 
 .title {
-  font-size: 25px;
+  font-size: 20px; /* Reduced font size for better text balance */
   font-weight: 700;
+  color: var(--color-text); /* Ensure text color matches theme */
 }
 
 .description {
   margin-top: 6px;
-  font-size: 25px;
+  font-size: 16px; /* Reduced font size for readability */
   font-weight: 400;
+  color: var(--color-text); /* Ensure text color matches theme */
 }
 
 .skills {
   width: 100%;
-  margin-top: 14px;
+  margin-top: 12px; /* Adjusted spacing */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 6px;
   list-style: none;
+  padding: 0; /* Removed list padding */
 }
 
 .skill {
-  font-size: 25px;
+  font-size: 14px; /* Reduced font size for a cleaner look */
   font-weight: 400;
-  border-radius: 100px;
+  border-radius: 20px;
   background: var(--color-dark);
-  padding: 2px 22px;
+  padding: 4px 16px; /* Adjusted padding for better fit */
+  color: var(--color-text); /* Ensure text color matches theme */
 }
 
 .links {
   width: 100%;
-  margin-top: 26px;
+  margin-top: 20px; /* Adjusted spacing */
   display: flex;
   justify-content: space-around;
 }
@@ -53,9 +58,14 @@
 .link {
   text-decoration: none;
   color: var(--color-text);
-  font-size: 30px;
+  font-size: 18px; /* Reduced font size for better balance */
   font-weight: 600;
-  border-radius: 100px;
+  border-radius: 20px;
   background: var(--color-primary);
-  padding: 1px 22px;
+  padding: 8px 16px; /* Adjusted padding for consistency */
+  transition: background-color 0.3s ease; /* Added transition for hover effect */
+}
+
+.link:hover {
+  background-color: darken(var(--color-primary), 10%); /* Slight darkening on hover */
 }
